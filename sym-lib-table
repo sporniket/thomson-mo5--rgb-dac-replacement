@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "74x32")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/ics/commons/74x32.lib")(options "")(descr ""))
+)
