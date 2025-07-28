@@ -1120,13 +1120,13 @@
   (symbol (lib_id "Device:Q_PNP_EBC") (at 148.59 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 060560f4-33eb-4e49-9333-ff68e02d510f)
-    (property "Reference" "Q101" (at 153.67 52.07 0)
+    (property "Reference" "Q1" (at 153.67 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N3904" (at 153.67 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 153.67 50.8 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide" (at 153.67 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 148.59 53.34 0)
@@ -1138,7 +1138,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "Q101") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -1147,13 +1147,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 161.29 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b33ac0c-4dd2-472e-b375-718e6fc2f45f)
-    (property "Reference" "R119" (at 160.02 115.57 90)
+    (property "Reference" "R23" (at 160.02 115.57 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "75" (at 162.56 115.57 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 161.29 116.84 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 161.29 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 161.29 116.84 0)
@@ -1164,7 +1164,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R119") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -1173,7 +1173,7 @@
   (symbol (lib_id "power:+5V") (at 151.13 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b5b4f4f-5405-429a-a8f3-e90673e8e0e1)
-    (property "Reference" "#PWR0111" (at 151.13 148.59 0)
+    (property "Reference" "#PWR012" (at 151.13 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 152.4 143.51 0)
@@ -1189,7 +1189,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -1198,13 +1198,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 121.92 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 133777a6-b95b-48e7-83f0-a574f7a57352)
-    (property "Reference" "R108" (at 120.65 105.41 90)
+    (property "Reference" "R8" (at 120.65 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12K" (at 123.19 105.41 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 121.92 106.68 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 121.92 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 106.68 0)
@@ -1215,7 +1215,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R108") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1224,13 +1224,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 151.13 121.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14d6a394-88ed-4692-b5e8-d5925a3088b8)
-    (property "Reference" "R120" (at 149.86 120.65 0)
+    (property "Reference" "R20" (at 149.86 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 149.86 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 151.13 121.92 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 151.13 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 121.92 0)
@@ -1241,7 +1241,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R120") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -1250,7 +1250,7 @@
   (symbol (lib_id "power:GND") (at 78.74 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15248f70-f176-4a46-afa0-1c152e18ea4f)
-    (property "Reference" "#PWR0103" (at 78.74 153.67 0)
+    (property "Reference" "#PWR04" (at 78.74 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 148.59 0)
@@ -1266,7 +1266,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1275,7 +1275,7 @@
   (symbol (lib_id "power:GND") (at 138.43 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1914025c-0d9a-4435-a8cb-43130b1bb6b3)
-    (property "Reference" "#PWR0106" (at 138.43 68.58 0)
+    (property "Reference" "#PWR05" (at 138.43 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 63.5 0)
@@ -1291,7 +1291,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1300,13 +1300,13 @@
   (symbol (lib_id "Device:Q_PNP_EBC") (at 148.59 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24244531-427b-40bd-bc84-f5b522acb364)
-    (property "Reference" "Q103" (at 153.67 156.21 0)
+    (property "Reference" "Q3" (at 153.67 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N3904" (at 153.67 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 153.67 154.94 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide" (at 153.67 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 148.59 157.48 0)
@@ -1318,7 +1318,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "Q103") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -1327,13 +1327,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 135.89 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30a96e43-54a4-4421-8f40-60eab2556ea2)
-    (property "Reference" "R117" (at 134.62 100.33 0)
+    (property "Reference" "R14" (at 134.62 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 134.62 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 135.89 101.6 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 135.89 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 135.89 101.6 0)
@@ -1344,7 +1344,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R117") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -1353,13 +1353,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 121.92 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34111c13-90b3-4597-b723-4c72421757b9)
-    (property "Reference" "R111" (at 120.65 113.03 90)
+    (property "Reference" "R11" (at 120.65 113.03 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6K2" (at 123.19 113.03 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 121.92 114.3 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 121.92 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 114.3 0)
@@ -1370,7 +1370,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R111") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1379,13 +1379,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 121.92 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 482fe604-63ff-41d1-814c-bdd11b97719e)
-    (property "Reference" "R104" (at 120.65 95.25 90)
+    (property "Reference" "R4" (at 120.65 95.25 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12K" (at 123.19 95.25 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 121.92 96.52 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 121.92 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 96.52 0)
@@ -1396,7 +1396,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R104") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1405,7 +1405,7 @@
   (symbol (lib_id "power:+5V") (at 151.13 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 525d4ba5-a651-4973-a2a0-e2446ea15866)
-    (property "Reference" "#PWR0105" (at 151.13 44.45 0)
+    (property "Reference" "#PWR08" (at 151.13 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 152.4 39.37 0)
@@ -1421,7 +1421,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1430,13 +1430,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 121.92 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55f094be-9059-4259-adb0-a4adbb214c47)
-    (property "Reference" "R103" (at 120.65 92.71 90)
+    (property "Reference" "R3" (at 120.65 92.71 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6K2" (at 123.19 92.71 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 121.92 93.98 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 121.92 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 93.98 0)
@@ -1447,7 +1447,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R103") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1456,13 +1456,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 135.89 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5673ea00-980e-44ae-96b9-db2a50180977)
-    (property "Reference" "R113" (at 134.62 46.99 0)
+    (property "Reference" "R13" (at 134.62 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 134.62 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 135.89 48.26 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 135.89 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 135.89 48.26 0)
@@ -1473,7 +1473,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R113") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1482,13 +1482,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 135.89 152.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b7be776-7d9a-468b-a7a2-78f8e44d8173)
-    (property "Reference" "R121" (at 134.62 151.13 0)
+    (property "Reference" "R15" (at 134.62 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 134.62 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 135.89 152.4 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 135.89 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 135.89 152.4 0)
@@ -1499,7 +1499,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R121") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -1508,13 +1508,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 138.43 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e33b0c3-0c34-4d95-8463-86d74510c399)
-    (property "Reference" "R114" (at 137.16 57.15 0)
+    (property "Reference" "R16" (at 137.16 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K" (at 137.16 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 138.43 58.42 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 138.43 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 58.42 0)
@@ -1525,7 +1525,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R114") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -1534,13 +1534,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 161.29 167.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e47766f-6c34-408e-9876-a5fac427f25c)
-    (property "Reference" "R123" (at 160.02 166.37 90)
+    (property "Reference" "R24" (at 160.02 166.37 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "75" (at 162.56 166.37 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 161.29 167.64 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 161.29 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 161.29 167.64 0)
@@ -1551,7 +1551,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R123") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -1560,7 +1560,7 @@
   (symbol (lib_id "74x32:QUADRUPLE_2-INPUTS_POSITIVE-OR_GATES") (at 78.74 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ceaa09c-9088-4a99-94c5-15d7e68ef812)
-    (property "Reference" "U101" (at 81.28 78.74 0)
+    (property "Reference" "U1" (at 81.28 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (property "Value" "QUADRUPLE_2-INPUTS_POSITIVE-OR_GATES" (at 81.28 81.28 0)
@@ -1589,7 +1589,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "U101") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1598,13 +1598,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x09") (at 25.4 101.6 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92140518-6a67-4c49-8ea4-f85dbc429e2c)
-    (property "Reference" "J101" (at 25.4 88.9 0)
+    (property "Reference" "J1" (at 25.4 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Input" (at 25.4 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 25.4 101.6 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" (at 25.4 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 25.4 101.6 0)
@@ -1622,7 +1622,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "J101") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1631,7 +1631,7 @@
   (symbol (lib_id "power:GND") (at 151.13 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93ad0776-9cad-4cb8-a8c7-2afc14fb7c3b)
-    (property "Reference" "#PWR0113" (at 151.13 184.15 0)
+    (property "Reference" "#PWR013" (at 151.13 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 179.07 0)
@@ -1647,7 +1647,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1656,13 +1656,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 138.43 162.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94eb21db-b5bc-47cf-a28f-9bb123fbb27a)
-    (property "Reference" "R122" (at 137.16 161.29 0)
+    (property "Reference" "R18" (at 137.16 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K" (at 137.16 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 138.43 162.56 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 138.43 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 162.56 0)
@@ -1673,7 +1673,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R122") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1682,13 +1682,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 161.29 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99f1ba2d-d758-4a4f-95c6-39252c629def)
-    (property "Reference" "R115" (at 160.02 62.23 90)
+    (property "Reference" "R22" (at 160.02 62.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "75" (at 162.56 62.23 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 161.29 63.5 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 161.29 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 161.29 63.5 0)
@@ -1699,7 +1699,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R115") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -1708,7 +1708,7 @@
   (symbol (lib_id "power:+5V") (at 78.74 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1a916d7-19c3-499e-8f82-71a6809023b8)
-    (property "Reference" "#PWR0104" (at 78.74 74.93 0)
+    (property "Reference" "#PWR03" (at 78.74 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 80.01 69.85 0)
@@ -1724,7 +1724,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1733,7 +1733,7 @@
   (symbol (lib_id "power:+5V") (at 151.13 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a66dc918-9426-4a32-8c50-4357278ece32)
-    (property "Reference" "#PWR0108" (at 151.13 97.79 0)
+    (property "Reference" "#PWR010" (at 151.13 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 152.4 92.71 0)
@@ -1749,7 +1749,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1758,13 +1758,13 @@
   (symbol (lib_id "Device:Q_PNP_EBC") (at 148.59 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aaef7174-e02d-4cb6-8385-bba3ef3896a6)
-    (property "Reference" "Q102" (at 153.67 105.41 0)
+    (property "Reference" "Q2" (at 153.67 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N3904" (at 153.67 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 153.67 104.14 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide" (at 153.67 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 148.59 106.68 0)
@@ -1776,7 +1776,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "Q102") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -1785,7 +1785,7 @@
   (symbol (lib_id "power:GND") (at 138.43 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid adfd4e2a-7db6-4dc9-9d2e-64de81d5a9aa)
-    (property "Reference" "#PWR0112" (at 138.43 172.72 0)
+    (property "Reference" "#PWR07" (at 138.43 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 167.64 0)
@@ -1801,7 +1801,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1810,13 +1810,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 121.92 111.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0e2c13e-c261-41a6-a3a7-411f1cadc2ac)
-    (property "Reference" "R110" (at 120.65 110.49 90)
+    (property "Reference" "R10" (at 120.65 110.49 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3K" (at 123.19 110.49 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 121.92 111.76 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 121.92 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 111.76 0)
@@ -1827,7 +1827,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R110") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1836,13 +1836,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 185.42 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1fd9182-aa16-4d31-baad-4472efa4fcad)
-    (property "Reference" "J102" (at 185.42 114.3 0)
+    (property "Reference" "J2" (at 185.42 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Output" (at 185.42 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 185.42 119.38 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 185.42 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 185.42 119.38 0)
@@ -1854,7 +1854,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "J102") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1863,7 +1863,7 @@
   (symbol (lib_id "power:+5V") (at 36.83 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9d1357b-bd14-4c98-99cc-c9661f23e984)
-    (property "Reference" "#PWR0101" (at 36.83 95.25 0)
+    (property "Reference" "#PWR01" (at 36.83 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 38.1 90.17 0)
@@ -1879,7 +1879,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1888,13 +1888,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 121.92 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfbd6655-3b6d-40aa-96b1-1fe5cd3e6618)
-    (property "Reference" "R106" (at 120.65 100.33 90)
+    (property "Reference" "R6" (at 120.65 100.33 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3K" (at 123.19 100.33 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 121.92 101.6 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 121.92 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 101.6 0)
@@ -1905,7 +1905,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R106") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1914,13 +1914,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 138.43 111.76 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d36c4e46-88d5-4fbe-ac34-3115458d6c30)
-    (property "Reference" "R118" (at 137.16 110.49 0)
+    (property "Reference" "R17" (at 137.16 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K" (at 137.16 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 138.43 111.76 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 138.43 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 111.76 0)
@@ -1931,7 +1931,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R118") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -1940,7 +1940,7 @@
   (symbol (lib_id "power:GND") (at 151.13 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e318b68e-1741-45f3-a677-da678238feb6)
-    (property "Reference" "#PWR0107" (at 151.13 80.01 0)
+    (property "Reference" "#PWR09" (at 151.13 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 74.93 0)
@@ -1956,7 +1956,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1965,13 +1965,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 121.92 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e372b240-2466-4f90-8fa5-05c10db74ba2)
-    (property "Reference" "R112" (at 120.65 115.57 90)
+    (property "Reference" "R12" (at 120.65 115.57 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12K" (at 123.19 115.57 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 121.92 116.84 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 121.92 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 116.84 0)
@@ -1982,7 +1982,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R112") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1991,13 +1991,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 151.13 172.72 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3ab1f7b-5a1a-4ce0-8976-39653d259afd)
-    (property "Reference" "R124" (at 149.86 171.45 0)
+    (property "Reference" "R21" (at 149.86 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 149.86 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 151.13 172.72 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 151.13 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 172.72 0)
@@ -2008,7 +2008,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R124") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -2017,13 +2017,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 121.92 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4ad6842-d5e5-4da6-a4be-ac1460686f43)
-    (property "Reference" "R102" (at 120.65 90.17 90)
+    (property "Reference" "R2" (at 120.65 90.17 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3K" (at 123.19 90.17 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 121.92 91.44 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 121.92 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 91.44 0)
@@ -2034,7 +2034,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R102") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2043,13 +2043,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 121.92 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7562d98-ae88-43b4-afe1-1bbbab2bc8ab)
-    (property "Reference" "R101" (at 120.65 87.63 90)
+    (property "Reference" "R1" (at 120.65 87.63 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K5" (at 123.19 87.63 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 121.92 88.9 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 121.92 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 88.9 0)
@@ -2060,7 +2060,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R101") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2069,13 +2069,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 121.92 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9d81f83-a6cc-471a-aa96-bfa799b962e7)
-    (property "Reference" "R107" (at 120.65 102.87 90)
+    (property "Reference" "R7" (at 120.65 102.87 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6K2" (at 123.19 102.87 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 121.92 104.14 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 121.92 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 104.14 0)
@@ -2086,7 +2086,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R107") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2095,13 +2095,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 151.13 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f497083a-81d6-43b5-902d-274e26ec6262)
-    (property "Reference" "R116" (at 149.86 67.31 0)
+    (property "Reference" "R19" (at 149.86 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 149.86 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 151.13 68.58 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 151.13 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 68.58 0)
@@ -2112,7 +2112,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R116") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2121,13 +2121,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 121.92 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa4edcf3-864b-415d-927c-0003776d0a86)
-    (property "Reference" "R105" (at 120.65 97.79 90)
+    (property "Reference" "R5" (at 120.65 97.79 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K5" (at 123.19 97.79 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 121.92 99.06 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 121.92 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 99.06 0)
@@ -2138,7 +2138,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R105") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2147,7 +2147,7 @@
   (symbol (lib_id "power:GND") (at 138.43 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid faaeae69-cc58-4073-9b86-02966b15063a)
-    (property "Reference" "#PWR0109" (at 138.43 121.92 0)
+    (property "Reference" "#PWR06" (at 138.43 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 116.84 0)
@@ -2163,7 +2163,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2172,7 +2172,7 @@
   (symbol (lib_id "power:GND") (at 36.83 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fceab231-0f11-4a81-98b5-2f2168f3789d)
-    (property "Reference" "#PWR0102" (at 36.83 100.33 0)
+    (property "Reference" "#PWR02" (at 36.83 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 95.25 0)
@@ -2188,7 +2188,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2197,13 +2197,13 @@
   (symbol (lib_id "Device:R_Small_US") (at 121.92 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd2cf602-83ba-47bc-92b0-598e01b7f199)
-    (property "Reference" "R109" (at 120.65 107.95 90)
+    (property "Reference" "R9" (at 120.65 107.95 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K5" (at 123.19 107.95 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 121.92 109.22 0)
+    (property "Footprint" "commons-passives_THT:Passive_THT_resistor_W2.54mm_L12.70mm" (at 121.92 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 109.22 0)
@@ -2214,7 +2214,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R109") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2223,7 +2223,7 @@
   (symbol (lib_id "power:GND") (at 151.13 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe8aff29-3203-4375-865b-b63e037506df)
-    (property "Reference" "#PWR0110" (at 151.13 133.35 0)
+    (property "Reference" "#PWR011" (at 151.13 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 128.27 0)
@@ -2239,7 +2239,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
