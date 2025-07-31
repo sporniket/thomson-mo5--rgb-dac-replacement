@@ -27,7 +27,9 @@ You can copy, modify, distribute and perform the work, even for commercial purpo
 
 ### Release notes
 
-> No releases yet
+#### v1.0.0
+
+Initial release.
 
 ## 2. What should you know before using **Color DAC remake for the Thomson MO5 computer** ?
 
