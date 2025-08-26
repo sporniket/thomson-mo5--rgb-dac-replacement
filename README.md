@@ -37,13 +37,34 @@ Initial release.
 
 > Do not use **Color DAC remake for the Thomson MO5 computer** if this project is not suitable for your project.
 
+### Bill Of Material
+
+|Designator(s)|Value|
+|---|---|
+|C1|0.1uF|
+|Q1, Q2, Q3|2N3904|
+|R1, R5, R9|1K5|
+|R2, R6, R10|3K|
+|R3, R7, R11|6K2|
+|R4, R8, R12|12K|
+|R13, R14, R15|1K|
+|R16, R17, R18|2K|
+|R19, R20, R21|150|
+|R22, R23, R24|75|
+|U1|74HC32|
+|J1|1×9 pin header, right-angle|
+|J2|1×3 pin receptacle, right-angle|
+
+
 ## 3. How to use **Color DAC remake for the Thomson MO5 computer** ?
 
 ### From sources
 
 To get the latest available work, one must clone the git repository, build and install the package.
 
-	git clone https://github.com/sporniket/thomson-mo5--rgb-dac-replacement.git
+```
+git clone https://github.com/sporniket/thomson-mo5--rgb-dac-replacement.git
+```
 
 Then, open the project with Kicad.
 
