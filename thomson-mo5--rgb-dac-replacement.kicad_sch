@@ -837,7 +837,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 149.86 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b33ac0c-4dd2-472e-b375-718e6fc2f45f)
-    (property "Reference" "R23" (at 148.59 113.03 90)
+    (property "Reference" "R17" (at 148.59 113.03 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "75" (at 151.13 113.03 90)
@@ -854,7 +854,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R23") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -863,7 +863,7 @@
   (symbol (lib_id "power:+5V") (at 139.7 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b5b4f4f-5405-429a-a8f3-e90673e8e0e1)
-    (property "Reference" "#PWR012" (at 139.7 146.05 0)
+    (property "Reference" "#PWR010" (at 139.7 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 140.97 140.97 0)
@@ -879,7 +879,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -888,7 +888,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 139.7 119.38 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14d6a394-88ed-4692-b5e8-d5925a3088b8)
-    (property "Reference" "R20" (at 138.43 118.11 0)
+    (property "Reference" "R14" (at 138.43 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 138.43 120.65 0)
@@ -905,7 +905,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R20") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -914,7 +914,7 @@
   (symbol (lib_id "power:GND") (at 127 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1914025c-0d9a-4435-a8cb-43130b1bb6b3)
-    (property "Reference" "#PWR05" (at 127 68.58 0)
+    (property "Reference" "#PWR03" (at 127 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 63.5 0)
@@ -930,7 +930,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -966,7 +966,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 124.46 99.06 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30a96e43-54a4-4421-8f40-60eab2556ea2)
-    (property "Reference" "R14" (at 123.19 97.79 0)
+    (property "Reference" "R8" (at 123.19 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 123.19 100.33 0)
@@ -983,7 +983,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R14") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -992,7 +992,7 @@
   (symbol (lib_id "power:+5V") (at 139.7 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 525d4ba5-a651-4973-a2a0-e2446ea15866)
-    (property "Reference" "#PWR08" (at 139.7 44.45 0)
+    (property "Reference" "#PWR06" (at 139.7 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 140.97 39.37 0)
@@ -1008,7 +1008,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1017,7 +1017,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 124.46 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5673ea00-980e-44ae-96b9-db2a50180977)
-    (property "Reference" "R13" (at 123.19 46.99 0)
+    (property "Reference" "R7" (at 123.19 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 123.19 49.53 0)
@@ -1034,7 +1034,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R13") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1043,7 +1043,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 124.46 149.86 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b7be776-7d9a-468b-a7a2-78f8e44d8173)
-    (property "Reference" "R15" (at 123.19 148.59 0)
+    (property "Reference" "R9" (at 123.19 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 123.19 151.13 0)
@@ -1060,7 +1060,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R15") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1069,7 +1069,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 127 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e33b0c3-0c34-4d95-8463-86d74510c399)
-    (property "Reference" "R16" (at 125.73 57.15 0)
+    (property "Reference" "R10" (at 125.73 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K" (at 125.73 59.69 0)
@@ -1086,7 +1086,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R16") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1095,7 +1095,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 149.86 165.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e47766f-6c34-408e-9876-a5fac427f25c)
-    (property "Reference" "R24" (at 148.59 163.83 90)
+    (property "Reference" "R18" (at 148.59 163.83 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "75" (at 151.13 163.83 90)
@@ -1112,7 +1112,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R24") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1154,7 +1154,7 @@
   (symbol (lib_id "power:GND") (at 139.7 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93ad0776-9cad-4cb8-a8c7-2afc14fb7c3b)
-    (property "Reference" "#PWR013" (at 139.7 181.61 0)
+    (property "Reference" "#PWR011" (at 139.7 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 176.53 0)
@@ -1170,7 +1170,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1179,7 +1179,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 127 160.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94eb21db-b5bc-47cf-a28f-9bb123fbb27a)
-    (property "Reference" "R18" (at 125.73 158.75 0)
+    (property "Reference" "R12" (at 125.73 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K" (at 125.73 161.29 0)
@@ -1196,7 +1196,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R18") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1205,7 +1205,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 149.86 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99f1ba2d-d758-4a4f-95c6-39252c629def)
-    (property "Reference" "R22" (at 148.59 62.23 90)
+    (property "Reference" "R16" (at 148.59 62.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "75" (at 151.13 62.23 90)
@@ -1222,7 +1222,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R22") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -1231,7 +1231,7 @@
   (symbol (lib_id "power:+5V") (at 139.7 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a66dc918-9426-4a32-8c50-4357278ece32)
-    (property "Reference" "#PWR010" (at 139.7 95.25 0)
+    (property "Reference" "#PWR08" (at 139.7 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 140.97 90.17 0)
@@ -1247,7 +1247,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1283,7 +1283,7 @@
   (symbol (lib_id "power:GND") (at 127 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid adfd4e2a-7db6-4dc9-9d2e-64de81d5a9aa)
-    (property "Reference" "#PWR07" (at 127 170.18 0)
+    (property "Reference" "#PWR05" (at 127 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 165.1 0)
@@ -1299,7 +1299,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1308,7 +1308,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 76.2 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0e2c13e-c261-41a6-a3a7-411f1cadc2ac)
-    (property "Reference" "R10" (at 74.93 153.67 90)
+    (property "Reference" "R5" (at 74.93 153.67 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K4" (at 77.47 153.67 90)
@@ -1325,7 +1325,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R10") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1386,7 +1386,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 76.2 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfbd6655-3b6d-40aa-96b1-1fe5cd3e6618)
-    (property "Reference" "R6" (at 74.93 102.87 90)
+    (property "Reference" "R3" (at 74.93 102.87 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K4" (at 77.47 102.87 90)
@@ -1403,7 +1403,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R6") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1412,7 +1412,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 127 109.22 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d36c4e46-88d5-4fbe-ac34-3115458d6c30)
-    (property "Reference" "R17" (at 125.73 107.95 0)
+    (property "Reference" "R11" (at 125.73 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K" (at 125.73 110.49 0)
@@ -1429,7 +1429,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R17") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1438,7 +1438,7 @@
   (symbol (lib_id "power:GND") (at 139.7 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e318b68e-1741-45f3-a677-da678238feb6)
-    (property "Reference" "#PWR09" (at 139.7 80.01 0)
+    (property "Reference" "#PWR07" (at 139.7 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 74.93 0)
@@ -1454,7 +1454,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1463,7 +1463,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 139.7 170.18 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3ab1f7b-5a1a-4ce0-8976-39653d259afd)
-    (property "Reference" "R21" (at 138.43 168.91 0)
+    (property "Reference" "R15" (at 138.43 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 138.43 171.45 0)
@@ -1480,7 +1480,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R21") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -1489,7 +1489,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 76.2 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4ad6842-d5e5-4da6-a4be-ac1460686f43)
-    (property "Reference" "R2" (at 74.93 52.07 90)
+    (property "Reference" "R1" (at 74.93 52.07 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2K4" (at 77.47 52.07 90)
@@ -1506,7 +1506,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R2") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1515,7 +1515,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 76.2 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7562d98-ae88-43b4-afe1-1bbbab2bc8ab)
-    (property "Reference" "R1" (at 74.93 54.61 90)
+    (property "Reference" "R2" (at 74.93 54.61 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K2" (at 77.47 54.61 90)
@@ -1532,7 +1532,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1541,7 +1541,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 139.7 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f497083a-81d6-43b5-902d-274e26ec6262)
-    (property "Reference" "R19" (at 138.43 67.31 0)
+    (property "Reference" "R13" (at 138.43 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 138.43 69.85 0)
@@ -1558,7 +1558,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R19") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1567,7 +1567,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 76.2 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa4edcf3-864b-415d-927c-0003776d0a86)
-    (property "Reference" "R5" (at 74.93 105.41 90)
+    (property "Reference" "R4" (at 74.93 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K2" (at 77.47 105.41 90)
@@ -1584,7 +1584,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R5") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1593,7 +1593,7 @@
   (symbol (lib_id "power:GND") (at 127 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid faaeae69-cc58-4073-9b86-02966b15063a)
-    (property "Reference" "#PWR06" (at 127 119.38 0)
+    (property "Reference" "#PWR04" (at 127 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 114.3 0)
@@ -1609,7 +1609,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1643,7 +1643,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 76.2 157.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd2cf602-83ba-47bc-92b0-598e01b7f199)
-    (property "Reference" "R9" (at 74.93 156.21 90)
+    (property "Reference" "R6" (at 74.93 156.21 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K2" (at 77.47 156.21 90)
@@ -1660,7 +1660,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "R9") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1669,7 +1669,7 @@
   (symbol (lib_id "power:GND") (at 139.7 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe8aff29-3203-4375-865b-b63e037506df)
-    (property "Reference" "#PWR011" (at 139.7 130.81 0)
+    (property "Reference" "#PWR09" (at 139.7 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 125.73 0)
@@ -1685,7 +1685,7 @@
     (instances
       (project "thomson-mo5--rgb-dac-replacement"
         (path "/6729e3ee-9a1a-4141-acef-0c5582111607"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
